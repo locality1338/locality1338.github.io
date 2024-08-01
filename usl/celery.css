@@ -1,0 +1,120 @@
+.celery {
+    position: absolute;
+    width: 380px; 
+    height: 300px;
+    background-color: rgb(40,40,40);
+    border-radius: 9px;
+    top: 128px;
+    left: 940px;
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(53, 248, 134, 0.11);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(53, 248, 134, 0.11);
+    box-shadow: 0px 0px 8px 6px rgba(53, 248, 134, 0.11);
+}
+.xznecelery {
+    position: absolute;
+    border-radius: 9px;
+    width: 380px;
+    height: 121px;
+    background-color: rgb(46,46,46);
+    top: 307px;
+    left: 940px;
+    z-index: 1;
+}
+
+.imgcelery {
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top: 139px;
+    left: 1040px;
+    border-radius: 9px;
+    filter: drop-shadow(1rem 1rem 5px rgba(4, 255, 0, 0.089)) ;
+}
+.despcelery {
+    position: absolute;
+    color: rgb(127, 109, 231);
+    font-weight: bolder;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 321px;
+    left: 963px;
+    z-index: 1;
+}
+
+.statuscelery {
+    width: 12px;
+    position: absolute;
+    z-index: 2;
+    height: 12px;
+    top: 343px;
+    left: 951px;
+    border-radius: 20px;
+}
+.statustextcelery {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(127, 109, 231);
+    top: 341px;
+    left: 970px;
+    z-index: 1;
+    font-size: 90%;
+}
+
+.statuscelery.online {
+    background-color: rgb(15, 241, 11);
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(4, 255, 0, 0.36);
+    -moz-box-shadow: 0px 0px 8px 4px rgba(4, 255, 0, 0.36);
+    box-shadow: 0px 0px 8px 4px rgba(4, 255, 0, 0.36);
+}
+.statuscelery.offline {
+    background-color: rgb(241, 11, 11);
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(241, 11, 11, 0.36);
+    -moz-box-shadow: 0px 0px 8px 4px rgba(241, 11, 11, 0.36);
+    box-shadow: 0px 0px 8px 4px rgba(241, 11, 11, 0.36);
+}
+
+.downloadcelerybt {
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    background-color: rgb(32, 32, 32);
+    color: rgb(127, 109, 231);
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    top: 374px;
+    left: 947px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.downloadcelerybtt {
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    background-color: rgb(32, 32, 32);
+    color: rgb(127, 109, 231);
+    border-radius: 7px;
+    width: 180px;
+    height: 40px;
+    top: 374px;
+    left: 1132px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.downloadwicelery {
+    z-index: 2;
+    width: 90px;
+    background-color: black;
+    top: 419px;
+    position: absolute;
+    height: 2px;
+    left: 992px;
+}
+.downloadwiceleryy {
+    z-index: 2;
+    width: 90px;
+    background-color: black;
+    top: 419px;
+    position: absolute;
+    height: 2px;
+    left: 1176px;
+}

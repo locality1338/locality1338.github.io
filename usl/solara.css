@@ -1,0 +1,97 @@
+.solara {
+    position: absolute;
+    width: 380px; 
+    height: 300px;
+    background-color: rgb(40,40,40);
+    border-radius: 9px;
+    top: 128px;
+    left: 31px;
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(184, 0, 255, 0.11);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(184, 0, 255, 0.11);
+    box-shadow: 0px 0px 8px 6px rgba(184, 0, 255, 0.11);
+}
+.xzne {
+    position: absolute;
+    border-radius: 9px;
+    width: 380px;
+    height: 121px;
+    background-color: rgb(46,46,46);
+    top: 307px;
+    left: 32px;
+    z-index: 1;
+}
+
+.imgsolara {
+    width: 355px;
+    height: 189px;
+    position: absolute;
+    top: 139px;
+    left: 42px;
+    border-radius: 9px;
+}
+.despsolara {
+    position: absolute;
+    color: rgb(127, 109, 231);
+    font-weight: bolder;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 321px;
+    left: 38px;
+    z-index: 1;
+}
+
+.statussol {
+    width: 12px;
+    position: absolute;
+    z-index: 2;
+    height: 12px;
+    top: 343px;
+    left: 46px;
+    border-radius: 20px;
+}
+.statustext {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(127, 109, 231);
+    top: 341px;
+    left: 67px;
+    z-index: 1;
+    font-size: 90%;
+}
+
+.statussol.online {
+    background-color: rgb(15, 241, 11);
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(4, 255, 0, 0.36);
+    -moz-box-shadow: 0px 0px 8px 4px rgba(4, 255, 0, 0.36);
+    box-shadow: 0px 0px 8px 4px rgba(4, 255, 0, 0.36);
+}
+.statussol.offline {
+    background-color: rgb(241, 11, 11);
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(241, 11, 11, 0.36);
+    -moz-box-shadow: 0px 0px 8px 4px rgba(241, 11, 11, 0.36);
+    box-shadow: 0px 0px 8px 4px rgba(241, 11, 11, 0.36);
+}
+
+.downloadsolarabt {
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    background-color: rgb(32, 32, 32);
+    color: rgb(127, 109, 231);
+    border-radius: 7px;
+    width: 360px;
+    height: 40px;
+    top: 373px;
+    left: 41.1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.downloadwisol {
+    z-index: 2;
+    width: 90px;
+    background-color: black;
+    top: 419px;
+    position: absolute;
+    height: 2px;
+    left: 175px;
+}
