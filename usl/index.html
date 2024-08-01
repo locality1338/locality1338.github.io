@@ -1,1 +1,131 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style class="otherthings">
+        body {
+            background-color: rgb(31,31,31);
+            min-width: 960px;
+        }
+        .piskasverxy {
+            width: 1345px;
+            background-color: rgb(40,40,40);
+            height: 90px;
+            position: absolute;
+            border-radius: 5px;
+        }
+        .sigmatext {
+            z-index: 1;
+            left: 39px;
+            top: 38px;
+            font-size: 145%;
+            position: absolute;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: #FFFFFF; 
+            text-shadow: 0 0 10px #FFFFFF;
+        }
+        .robloxvertext {
+            position: absolute;
+            text-shadow: 0 0 10px #FFFFFF;
+            left: 440px;
+            top: 42px;
+            z-index: 1;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+        .winadd {
+            z-index: 1;
+            width: 129px;
+            background-color: rgb(44, 44, 44);
+            border-color: #ffffff;
+            border-radius: 7px;
+            height: 40px;
+            position: absolute;
+            border-width: px;
+            border: 5px solid rgb(32, 32, 32);
+            left: 1100px;
+            top: 30px;
+        }
+        .windowslogo {
+            top: 40px;
+            left: 1109px;
+            z-index: 1;
+            position: absolute;
+            width: 30px; height: auto
+        }
+        .ava {
+            font-size: 10px;
+            color: white;
+            font-weight: bolder;font-family: Arial, Helvetica, sans-serif;
+            left: 40px;
+            top: 5px;
+            position: absolute;
+        }
+        .winwin {
+            font-size: 20px;
+            color: white;
+            font-weight: bolder;font-family: Arial, Helvetica, sans-serif;
+            left: 40px;
+            top: 15px;
+            position: absolute; 
+        }
+    </style>
+    <link rel="stylesheet" href="style/solara.css">
+    <link rel="stylesheet" href="style/wave.css">
+    <link rel="stylesheet" href="style/celery.css">
+    <link rel="stylesheet" href="style/animations.css">
+</head>
+<body>
+    <div class="verx">
+        <label class="sigmatext" id="sigmatext"></label> <label class="robloxvertext" id="robloxvertext">Current Roblox Windows Version: error (this func in beta test)</label>
+        <div class="piskasverxy"></div>
+        <a href="https://locality1338.github.io/usl/index.html" id="sigmatextclick"></a>
+        <div class="winadd"><label class="ava">Available Only On</label><label class="winwin">Windows</label></div><img src="media/windows.png" class="windowslogo">
+    </div>
+    <div class="softwares">
+        <div class="solarasoftware">
+            <a href="https://raw.githubusercontent.com/cmd-softworks/solara/main/Bootstrapper.exe" target="_self" id="downloadsolara"></a>
+            <div id="solara" class="solara" id="solara"></div>
+            <div class="xzne"></div>
+            <img src="media/solara.png" class="imgsolara" id="imgsolara">
+            <label class="despsolara">Start your Windows exploiting journey with Solara (Keyless)</label>
+            <div class="statussol" id="statussol"></div><label class="statustext" id="statustext"></label>
+            <button class="downloadsolarabt" id="downloadsolarabt">Download Bootstrapper</button>
+            <div class="downloadwisol" id="downloadwisol"></div>
+        </div>
+        <div class="wavesoftware">
+            <a href="https://cdn.getwave.gg/WaveInstaller.exe" target="_self" id="downloadwave"></a>
+            <a href="https://discord.gg/getwave" target="_blank" id="discordwave"></a>
+            <div id="wave" class="wave" id="wave"></div>
+            <div class="xznewave"></div>
+            <img src="media/wave.png" class="imgwave" id="imgwave">
+            <label class="despwave">Partnership SPDM Team and Codex (Key/Paid)</label>
+            <div class="statuswav" id="statuswav"></div><label class="statustextwave" id="statustextwave"></label>
+            <button class="downloadwavebt" id="downloadwavebt">Download Installer</button>
+            <button class="downloadwavebtt" id="downloadwavebtt">Discord</button>
+            <div class="downloadwiwav" id="downloadwiwav"></div>
+            <div class="downloadwiwavv" id="downloadwiwavv"></div>
+        </div>
+        <div class="celerysoftware">
+            <a href="https://celery.zip/" target="_self" id="downloadcelery"></a>
+            <a href="https://discord.gg/celery" target="_blank" id="discordcelery"></a>
+            <div id="celery" class="celery" id="celery"></div>
+            <div class="xznecelery"></div>
+            <img src="media/celery.png" class="imgcelery" id="imgcelery">
+            <label class="despcelery">Celery is a powerful tool for automating tasks (Keyless)</label>
+            <div class="statuscelery" id="statuscelery"></div><label class="statustextcelery" id="statustextcelery"></label>
+            <button class="downloadcelerybt" id="downloadcelerybt" disabled>Download (their website is down)</button>
+            <button class="downloadcelerybtt" id="downloadcelerybtt">Discord</button>
+            <div class="downloadwicelery" id="downloadwicelery"></div>
+            <div class="downloadwiceleryy" id="downloadwiceleryy"></div>
+        </div>
+    </div>
+</body>
+<script src="scripts/settings.js"></script> 
+<script src="scripts/status.js"></script> 
+<script src="scripts/events.js"></script> 
+<script src="scripts/robloxver.js"></script> 
+</html>
