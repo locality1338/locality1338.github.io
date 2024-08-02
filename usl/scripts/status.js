@@ -1,4 +1,4 @@
-let statussolara = true
+let statussolara = false
 let statuswave = false
 let statusceleryq = true
 
