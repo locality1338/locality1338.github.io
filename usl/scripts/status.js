@@ -1,6 +1,6 @@
 let statussolara = true
 let statuswave = false
-let statusceleryq = false
+let statusceleryq = true
 
 if (statusceleryq === true) {
     statuscelery.classList.add("online")
