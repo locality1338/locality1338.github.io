@@ -1,5 +1,5 @@
 let statussolara = true
-let statuswave = true
+let statuswave = false
 let statusceleryq = false
 
 if (statusceleryq === true) {
